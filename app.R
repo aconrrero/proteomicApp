@@ -106,7 +106,12 @@ ui <- navbarPage("ProteomicApp",
                     but aims to become an essential and customizable tool for understanding complex data, paving 
                     the way for future advancements, particularly in the field of scientific research.",
                     style = "font-size:25px;")),
-           
+           #TAB DEVELOPER
+           tabPanel("Developer",
+                    p(a("Agustina Conrrero", href="https://www.linkedin.com/in/agustinaconrrero/", target="_blank"), style = "font-size: 22px;"),
+                    p("Data Scientist", style = "font-size: 20px;"),
+                    p("agustinaconrrero@gmail.com", style = "font-size: 15px")
+           )
 )
 
 # Define server logic required to draw a histogram
